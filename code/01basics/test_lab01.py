@@ -14,16 +14,18 @@
 # QA -> Focus -> Test case
 
 from selenium import webdriver
-
+import logging
 
 def test_open_login():
     driver = webdriver.Chrome()
+    LOGGER = logging.getLogger(__name__)
     # Create a Session with POST Request(API POST Request),
     # Fresh Chrome Browser will be open, Session ID is created. #3l2kjh3g2hj1kl2
     # SessionId - 68614348f0cb4f521b963ed00eefbd0a
     driver.get("https://google.com")
     driver.maximize_window()
-    print(driver.title)
+    LOGGER.info(driver.title)
+    print("This is Pramod")
 
 
     # 1 Session ID -> close ID will be deleted
