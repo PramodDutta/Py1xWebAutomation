@@ -1,0 +1,3 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"skipped","Fri Jan 12 07:43:23 IST 2024","Fri Jan 12 07:43:45 IST 2024","21677","code.12_JAN_2024","test_Lab19","","","","test_vwologin_positve[user_cred1]",""
+"skipped","Fri Jan 12 07:43:23 IST 2024","Fri Jan 12 07:43:48 IST 2024","25013","code.12_JAN_2024","test_Lab19","","","","test_vwologin_positve[user_cred0]",""
